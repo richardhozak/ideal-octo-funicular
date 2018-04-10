@@ -1,5 +1,5 @@
-extern crate subcrate_test as subct;
+extern crate nanovg_sys as nvg;
 
 fn main() {
-    subct::test_print_function();
+    let _c = nvg::NVGcolor {rgba:[0.0,0.0,0.0,0.0]};
 }
