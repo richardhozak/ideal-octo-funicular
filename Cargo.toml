@@ -2,10 +2,15 @@
 name = "crate-test"
 version = "0.1.0"
 authors = ["Richard Hozák <r.hozak@seznam.cz>"]
+description = "test library"
+homepage = "https://www.google.com"
+keywords = ["test"]
+categories = ["rendering::graphics-api", "games", "gui"]
+license = "MIT/Zlib"
+
+[dependencies]
+subcrate-test = { path = "subcrate-test", version = "0.1.0" }
 
 [features]
 one = ["subcrate-test/one"]
 two = ["subcrate-test/two"]
-
-[dependencies]
-subcrate-test = { path = "subcrate-test", version = "0.1.0" }

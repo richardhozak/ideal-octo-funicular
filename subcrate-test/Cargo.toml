@@ -2,9 +2,12 @@
 name = "subcrate-test"
 version = "0.1.0"
 authors = ["Richard Hozák <r.hozak@seznam.cz>"]
+description = "test library"
+homepage = "https://www.google.com"
+keywords = ["test"]
+categories = ["rendering::graphics-api", "games", "gui"]
+license = "MIT/Zlib"
 
-[lib]
-name = "subcrate_test"
 
 [features]
 one = []
