@@ -1,0 +1,11 @@
+[package]
+name = "crate-test"
+version = "0.1.0"
+authors = ["Richard Hozák <r.hozak@seznam.cz>"]
+
+[features]
+one = ["subcrate-test/one"]
+two = ["subcrate-test/two"]
+
+[dependencies]
+subcrate-test = { path = "subcrate-test", version = "0.1.0" }

@@ -1,0 +1,11 @@
+[package]
+name = "subcrate-test"
+version = "0.1.0"
+authors = ["Richard Hozák <r.hozak@seznam.cz>"]
+
+[lib]
+name = "subcrate_test"
+
+[features]
+one = []
+two = []

@@ -1,0 +1,11 @@
+[[package]]
+name = "crate-test"
+version = "0.1.0"
+dependencies = [
+ "subcrate-test 0.1.0",
+]
+
+[[package]]
+name = "subcrate-test"
+version = "0.1.0"
+
